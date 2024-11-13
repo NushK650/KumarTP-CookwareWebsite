@@ -3,37 +3,76 @@
 /* end of body */
 /* navbar */
 
-#navbar{
+#navbar {
     display: grid;
 }
-#navbar-logo{
+
+#navbar-logo {
+
     background-color: #fb5108;
     border-radius: 10px;
-   width: 80px;
-   height: 80px;
-   text-align: center;
-   grid-column: 1;
-   grid-row: 1;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
 }
-#navbar-texts{
+
+#navbar-texts {
     padding-top: 25px;
-   text-align: center;
+    text-align: center;
     grid-row: 1;
     grid-column: 1;
     word-spacing: 100px;
 
 }
-.navbar-texts{
+
+.navbar-texts {
     color: #292828;
     text-decoration: none;
+    font-family: Roboto;
 }
-.navbar-texts:hover{
+
+.navbar-texts:hover {
     color: #fb5108;
     text-decoration: underline;
-    
+
 }
+
 /* navbar end  */
 
 /* hero */
+.hero{
+    display: grid;
+    grid-template-columns: repeat(24,1fr);
+    grid-template-rows: repeat(8, 1fr);  
+}
+.heroImg{
+   grid-column: 1 /span 24;
+   grid-row: 1/span 8;
+
+}
+/* .heroTextBox{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: .795;
+    grid-column: 1 ;
+    grid-row: 2;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+.textInHero{
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+}
+.heroFooter{
+    background-color: #1e2c20;
+    grid-column: span 24;
+    grid-row: 3;
+
+} */
 
 /* hero end */
