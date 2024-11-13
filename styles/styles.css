@@ -44,35 +44,35 @@
 /* hero */
 .hero{
     display: grid;
-    grid-template-columns: repeat(24,1fr);
-    grid-template-rows: repeat(8, 1fr);  
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 1fr);  
 }
+
 .heroImg{
-   grid-column: 1 /span 24;
-   grid-row: 1/span 8;
+   grid-column: 1 / 12;
+   grid-row: 1 /  11;
+   width: 100%;
+}
+
+.heroTextBox{
+    background-color: black;
+    opacity: 0.8;
+    grid-column: 2 /span 3 ;
+    grid-row: 8;
+    text-align: center;
 
 }
-/* .heroTextBox{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    opacity: .795;
-    grid-column: 1 ;
-    grid-row: 2;
-    text-align: center;
-    width: fit-content;
-    height: fit-content;
-}
+
 .textInHero{
     color: white;
     font-family: Roboto;
-    text-align: center;
 }
+
 .heroFooter{
     background-color: #1e2c20;
-    grid-column: span 24;
-    grid-row: 3;
+    grid-column: 1 /span 12;
+    grid-row: 10;
 
-} */
+}
 
 /* hero end */
