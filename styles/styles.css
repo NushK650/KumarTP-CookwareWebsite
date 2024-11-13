@@ -1,7 +1,33 @@
+/* body */
+body{
+    
+    display: grid;
+    
+    
+   
+}
+/* end of body */
 /* navbar */
-#navbarlogo{
+
+#navbar-logo{
     background-color: #fb5108;
-    border-radius: 5px;
-    aspect-ratio: 2/1;
+    border-radius: 10px;
+   width: 80px;
+   height: 80px;
+   grid-column: 1;
+   
+}
+#navbar{
+    
+    
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+#navbar-texts{
+   text-align: center;
+    grid-row: 1;
+    justify-content: center;
+    grid-column: 2;
 }
 /* navbar end  */
