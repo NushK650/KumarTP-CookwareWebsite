@@ -20,13 +20,17 @@
    text-align: center;
     grid-row: 1;
     grid-column: 1;
+    word-spacing: 100px;
+
 }
 .navbar-texts{
     color: #292828;
+    text-decoration: none;
+}
+.navbar-texts:hover{
+    color: #fb5108;
+    text-decoration: underline;
     
-    /* font */
-    
-    /* size */
 }
 /* navbar end  */
 
