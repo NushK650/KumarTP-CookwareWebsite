@@ -1,0 +1,10 @@
+.imagesCooking{
+    border-radius: 10px;
+    transition: transform .2s;
+
+    width: 379px;
+    height: 402px;
+}
+.imagesCooking:hover{
+   scale: 1.15;
+}
