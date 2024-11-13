@@ -1,0 +1,37 @@
+
+/* navbar */
+
+#navbar {
+    display: grid;
+}
+
+#navbar-logo {
+
+width: 5.5rem;
+    border-radius: 25px;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#navbar-texts {
+    
+    padding-top: 25px;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1;
+    word-spacing: 100px;
+
+}
+
+.navbar-texts {
+    color: #292828;
+    text-decoration: none;
+   
+}
+
+.navbar-texts:hover {
+    color: #fb5108;
+    text-decoration: underline;
+
+}

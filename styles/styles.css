@@ -1,78 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url(./navbar.css);
+@import url(./hero.css);
+@import url(./startcooking.css);
 /* body */
 
 /* end of body */
-/* navbar */
-
-#navbar {
-    display: grid;
+h1{
+    font-family: roboto-light;
+}
+p{
+    font-family: roboto-light;
+}
+a{
+    font-family: roboto-light;
+}
+h3{
+    font-family: roboto-light;
 }
 
-#navbar-logo {
-
-    background-color: #fb5108;
-    border-radius: 10px;
-    width: 80px;
-    height: 80px;
-    text-align: center;
-    grid-column: 1;
-    grid-row: 1;
-}
-
-#navbar-texts {
-    padding-top: 25px;
-    text-align: center;
-    grid-row: 1;
-    grid-column: 1;
-    word-spacing: 100px;
-
-}
-
-.navbar-texts {
-    color: #292828;
-    text-decoration: none;
-    font-family: Roboto;
-}
-
-.navbar-texts:hover {
-    color: #fb5108;
-    text-decoration: underline;
-
-}
-
-/* navbar end  */
-
-/* hero */
-.hero{
-    display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(11, 1fr);  
-}
-
-.heroImg{
-   grid-column: 1 / 12;
-   grid-row: 1 /  11;
-   width: 100%;
-}
-
-.heroTextBox{
-    background-color: black;
-    opacity: 0.8;
-    grid-column: 2 /span 3 ;
-    grid-row: 8;
-    text-align: center;
-
-}
-
-.textInHero{
-    color: white;
-    font-family: Roboto;
-}
-
-.heroFooter{
-    background-color: #1e2c20;
-    grid-column: 1 /span 12;
-    grid-row: 10;
-
-}
-
-/* hero end */

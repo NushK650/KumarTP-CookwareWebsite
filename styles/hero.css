@@ -1,0 +1,31 @@
+.hero {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+}
+
+.heroImg {
+    grid-column: 1 / 12;
+    grid-row: 1 / 11;
+    width: 100%;
+}
+
+.heroTextBox {
+    background-color: black;
+    opacity: 0.8;
+    grid-column: 2 /span 3;
+    grid-row: 8;
+    text-align: center;
+
+}
+
+.textInHero {
+    color: white;
+}
+
+.heroFooter {
+    background-color: #1e2c20;
+    grid-column: 1 /span 12;
+    grid-row: 10;
+
+}
