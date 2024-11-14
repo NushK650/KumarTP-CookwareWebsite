@@ -1,9 +1,7 @@
 .imagesCooking {
     border-radius: 10px;
     transition: transform .2s;
-    
-    width: 379px;
-    height: 402px;
+    aspect-ratio: 1/1;
 }
 
 .imagesCooking:hover {
