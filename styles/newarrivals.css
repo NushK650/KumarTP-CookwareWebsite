@@ -1,3 +1,58 @@
 .newArrivalsImage{
     aspect-ratio: 3/2;
 }
+.newArrivalsImage:hover{
+    filter: brightness(50%);
+    
+}
+
+.btn1{
+    background-color: red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-width: 0px;
+
+}
+.btn2{
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-width: 0px;
+
+}
+.btn3{
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-width: 0px;
+
+}
+.btn4{
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-width: 0px;
+
+}
+.btn1:hover{
+    border-spacing: 50px;
+    border-color: black;
+    border-width: 2px;
+}
+.btn2:hover{
+    border-color: black;
+    border-width: 2px;
+}
+.btn3:hover{
+    border-color: black;
+    border-width: 2px;
+}
+.btn4:hover{
+    border-spacing: 1px;
+    border-color: black;
+    border-width: 2px;
+}
