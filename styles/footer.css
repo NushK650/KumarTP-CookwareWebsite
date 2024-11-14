@@ -24,11 +24,11 @@
 .subscribeText{
     color: white;
     grid-column: 14 /span 3;
-    grid-row: 3;
+    grid-row: 3 /span 2;
 }
 .inputBox{
     grid-column: 14 /span 2;
-    grid-row: 4;
+    grid-row: 4 /span 3;
 }
 .subButton{
     grid-column: 16;
@@ -36,7 +36,9 @@
 }
 .btn {
     border-radius: 0px;
+    
 }
 .form-control{
     border-radius: 0px;
+    height: fit-content;
 }
