@@ -1,0 +1,23 @@
+
+.footer-grid-container{
+    background-color: #1e2c20;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    height: 300px;
+}
+.AOH{
+    grid-column: 2 /span 2 ;
+    grid-row: 3 /span 5;
+}
+.Prod{
+    grid-column: 4 /span 2;
+    grid-row: 3 /span 5;
+}
+.CS{
+    grid-column: 6 /span 2;
+    grid-row: 3 /span 5;
+}
+.footerText{
+    color: white;
+}
