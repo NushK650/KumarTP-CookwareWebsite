@@ -1,5 +1,12 @@
 .reviewsGridContainer{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(4, 100px);
+    grid-template-rows: repeat(8, 100px);
+}
+.imageRW1{
+   width: 100%;
+    aspect-ratio: 1/1;
+    scale: 1.5;
+     
+
 }
