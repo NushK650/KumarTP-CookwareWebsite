@@ -7,15 +7,15 @@
     height: 300px;
 }
 .AOH{
-    grid-column: 2 /span 2 ;
+    grid-column: 2 /span 3 ;
     grid-row: 3 /span 5;
 }
 .Prod{
-    grid-column: 4 /span 2;
+    grid-column:5 /span 3;
     grid-row: 3 /span 5;
 }
 .CS{
-    grid-column: 6 /span 2;
+    grid-column: 7 /span 3;
     grid-row: 3 /span 5;
 }
 .footerText{
@@ -23,16 +23,16 @@
 }
 .subscribeText{
     color: white;
-    grid-column: 14 /span 3;
+    grid-column: 14 /span 5;
     grid-row: 3 /span 2;
 }
 .inputBox{
-    grid-column: 14 /span 2;
-    grid-row: 4 /span 3;
+    grid-column: 14 /span 3;
+    grid-row: 5 /span 3;
 }
 .subButton{
-    grid-column: 16;
-    grid-row: 4;
+    grid-column: 17 /span 3;
+    grid-row: 5 /span 2;
 }
 .btn {
     border-radius: 0px;
@@ -41,4 +41,21 @@
 .form-control{
     border-radius: 0px;
     height: fit-content;
+}
+.Facebook{
+    grid-column: 14;
+    grid-row: 7;
+}
+.Instagram{
+    grid-column: 15;
+    grid-row: 7;
+}
+.Twitter{
+    grid-column: 16;
+    grid-row: 7;
+}
+.Linkedin{
+    color: white;
+    grid-column: 17;
+    grid-row: 7;
 }
