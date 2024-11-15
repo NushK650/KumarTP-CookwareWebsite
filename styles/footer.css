@@ -44,18 +44,18 @@
 }
 .Facebook{
     grid-column: 14;
-    grid-row: 7;
+    grid-row: 8;
 }
 .Instagram{
     grid-column: 15;
-    grid-row: 7;
+    grid-row: 8;
 }
 .Twitter{
     grid-column: 16;
-    grid-row: 7;
+    grid-row: 8;
 }
 .Linkedin{
     color: white;
     grid-column: 17;
-    grid-row: 7;
+    grid-row: 8;
 }
