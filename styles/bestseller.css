@@ -8,6 +8,8 @@
 }
 
 .card1 {
+    aspect-ratio: 3/4;
+    height: auto;
     padding: 24px;
     border: solid;
     border-radius: 10px;
@@ -16,6 +18,9 @@
 }
 
 .card2 {
+    line-height: normal;
+    aspect-ratio: 6/9;
+    height: auto;
     padding: 24px;
     border: solid;
     border-radius: 10px;
@@ -24,6 +29,8 @@
 }
 
 .card3 {
+    aspect-ratio: 6/9;
+    height: auto;
     padding: 24px;
     border: solid;
     border-radius: 10px;
