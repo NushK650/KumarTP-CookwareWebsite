@@ -1,12 +1,37 @@
-.reviewsGridContainer{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(8, 100px);
-}
 .imageRW1{
-   width: 100%;
-    aspect-ratio: 1/1;
-    scale: 1.5;
-     
+background-image: url(../assets/Reviews1.jpg);
+display: flex;
+align-items: center;
+aspect-ratio: 2/3;
+border-radius: 10px;
+background-size: cover;
 
+}
+
+.imageRW2{
+background-image: url(../assets/Reviews2.jpg);
+display: flex;
+align-items: center;
+aspect-ratio: 2/3;
+border-radius: 10px;
+background-size: cover;
+
+
+
+}
+.imageRW3{
+background-image: url(../assets/Reviews3.jpg);
+display: flex;
+align-items: center;
+aspect-ratio: 2/3;
+border-radius: 10px;
+background-size: cover;
+
+
+}
+.RWtextbox{
+    background-color: black;
+    opacity: .5;
+    color: white;
+    aspect-ratio: 1/1;
 }
